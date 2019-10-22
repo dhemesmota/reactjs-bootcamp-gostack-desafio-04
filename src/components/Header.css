@@ -1,0 +1,31 @@
+div#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 64px;
+  padding: 0 40px;
+  margin-bottom: 20px;
+  background: #4A90E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div#header #profile {
+  display: flex;
+  align-items: center;
+}
+
+div#header #profile strong {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+div#header #profile img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  margin-left: 8px;
+}
